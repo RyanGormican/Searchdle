@@ -8,6 +8,16 @@ function App() {
         <p>
          Searchdle
         </p>
+    <Slider
+  aria-label="Size"
+  defaultValue={5}
+  getAriaValueText={valuetext}
+  valueLabelDisplay="auto"
+  step={1}
+  marks
+  min={4}
+  max={11}
+/>
       </header>
     </div>
   );
